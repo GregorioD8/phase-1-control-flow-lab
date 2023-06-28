@@ -27,9 +27,9 @@ function ternaryCheckCity(city){
   return (city === 'NYC'? 'Ok, sounds good.' : 'No go.')
 }
   
-//return "Thank you so much." if the tip is generous
-//returns "Thank you." if the tip is not as generous
-//returns "Bye." if anything else
+// returns "Thank you so much." if the tip is generous
+// returns "Thank you." if the tip is not as generous
+// returns "Bye." if anything else
 function switchOnCharmFromTip(tip){
 
  switch (tip) {
